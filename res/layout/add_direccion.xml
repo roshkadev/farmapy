@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/address_etPostalAddress"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPostalAddress" android:hint="@string/address_direccion">
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/address_ciudad"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:hint="@string/address_ciudad"/>
+
+    <Button
+        android:id="@+id/btnSaveAddress"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/address_save_address" />
+
+</LinearLayout>

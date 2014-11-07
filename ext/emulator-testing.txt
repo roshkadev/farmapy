@@ -1,0 +1,14 @@
+To test location updates while running or debugging the application in the Android Virtual Device try:
+telnet localhost 5554
+The port number 5554 can vary. To know at which port your device is listening, look the number at the window title of your device.
+  
+Copy any of following lines to the telnet console and a location update event will be fired:
+geo fix -121.45356 46.51119 4392
+geo fix -27.352253 -56.8927 4392
+geo fix -56.8927 -27.352253 4392
+geo fix -57.653503 -25.289405 4000
+geo fix -57.653 -25.289405 4000
+geo fix -57.654 -25.289405 4000
+geo fix -57.653503 -25.289405 2000
+
+The last parameter is an optional altitude in meters and has no effect. 

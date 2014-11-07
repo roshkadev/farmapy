@@ -1,0 +1,75 @@
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/emergDescrip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="#006837"                    
+                    android:textAppearance="?android:attr/textAppearanceMedium" 
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/emergNro01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="#0000FF"
+                    android:textAppearance="?android:attr/textAppearanceMedium"/>
+                
+                <TextView
+                    android:id="@+id/emergNro02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""            
+                    android:textColor="#0000FF"        
+                    android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+                <TextView
+                    android:id="@+id/emergNro03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="#0000FF"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/emergUrl"                    
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="#000000"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/emergInfoAdic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="#000000"        
+                    android:textAppearance="?android:attr/textAppearanceMedium" android:textStyle="italic"/>
+                
+             </LinearLayout>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>

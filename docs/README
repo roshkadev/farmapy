@@ -1,0 +1,62 @@
+Codificando AcataAndroid
+----------- ------------
+
+AcataAndroid es el code name del proyecto que vamos a hacer entre todos. La idea es hacer un buscador de lugares para Paraguay (probablemente al comienzo el foco será Asunción).
+
+   ** ********
+1. El Proyecto
+   ** ********
+
+Hacer un APP para Android que permita a cualquier persona con un teléfono con dicho sistema operativo, poder encontrar lugares dentro de Asunción. Es tentador pensar en que es simplemente Foursquare. Pero no. Los aspectos sociales serán dejados de lado (por lo menos por ahora) para dar paso a los aspectos utilitarios del mismo.
+
+La aplicación debe ser capaz de servir en las siguientes situaciones:
+
+a) Estoy en el centro y quiero un estacionamiento cercano
+b) Quiero encontrar un ATM cercano
+c) Quiero encontrar una farmacia cercana
+d) Quiero encontrar una estación de servicio (con alguna bandera en particular?) cercana
+e) Quiero comprar una COCA
+f) Dónde hay una bodega
+g) Quiero comer empanadas. Cuál es el DonVito-Delivery más cercano a mi casa?
+
+El mapa será construido y enriquecido por la comunidad, que se verá incentivada por un sencillo sistema de puntos al estilo StackOverflow (http://stackoverflow.com), para poder hacer que la información sea lo más certera y actualizada posible.
+
+El prototipo no va a tener un diseño demasiado elegante. Si llegamos a tener algo funcionando, entonces Roshka va a contratar un diseñador profesional que se encargue de hermosear la aplicación (algo muy importante a la hora de subir una aplicación al Market).
+
+   ** ******** ********* ** **********
+2. El Ambiente Integrado de Desarrollo (IDE)
+   ** ******** ********* ** **********
+
+El ambiente integrado de desarrollo (IDE) va a ser Eclipse con el plugin ADT (Android Development Tools).
+
+El manejador de versiones va a ser mercurial. El repositorio oficial (no público) al código va a ser:
+
+https://phoebe.roshka.com/hg/AcataAndroid
+
+Para acceder al mismo se usan las credenciales de acceso LDAP de Roshka que sirven para acceder al email y otros servicios internos.
+
+Se va a planear levantar un BUG TRACKER interno, con una página WEB externa que pueda cargar casos que puedan ser atendidos ahí.  
+
+   ****** ***********
+3. Coding Conventions
+   ****** ***********
+
+Ninguno en especial. Coding conventions de Java tradicional CON NOMBRES DE CLASES, VARIABLES, MÉTODOS y COMENTARIOS EN INGLÉS. Si alguien tiene alguna duda, QUE PREGUNTE. 
+
+Además de esto, hay que considerar que TODAS las cadenas de caracteres que van a ser parte de la interfaz de usuario DEBERÁN ESTAR INTERNACIONALIZADAS en archivos XML para el efecto (como se debe hacer en Android). Tratemos de no tener IDENTIFICADORES de elementos de interfaz de usuario como "@+id/button1" ó "@+id/editText1". No seamos kaigüés y pongamos cosas que tengan sentido como nombre de los IDs de los elementos.
+
+Una cosa muy importante: EL ENCODING DE TODOS LOS ARCHIVOS DEL PROYECTO TIENE QUE SER UTF-8. Cualquiera que no acate esta disposición, poniendo un archivo en MacRoman, o ISO-8889-1 o ASCII, deberá traer una coca de 2 litros a la clase de los sábados para compartir con el resto.
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+El proyecto es de ROSHKA. Sírvanse cualquier ROSHKERO de modificar este README con información importante para el proyecto según crea conveniente.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ 
+ 
+

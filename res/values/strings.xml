@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FarmaPY</string>
+    <string name="categories_title">Categorias</string>
+    <string name="search_main_title">Buscar Lugares</string>
+    <string name="search_cat_btn_title">Seleccionar categoría</string>
+    <string name="search_dist_title">Radio</string><string name="search_to_add_place_btn">Agregar lugar</string><string name="search_clear_btn_title">Limpiar</string>
+    <string name="fb_connect_pub_btn_text">Publicar</string>
+    <string name="add_place_btnNombreLugar">Nombre:</string>
+    <string name="add_place_btnCategories">Categoría (Obligatorio)</string>
+    <string name="add_place_tvNombreLugar">Nombre:</string>
+    <string name="add_place_btnSavePlace">Guardar</string>
+    <string name="add_place_btnPhoto">Foto</string>
+    <string name="add_place_tfTelefono">Teléfono:</string>
+    <string name="add_place_btnDireccion">Dirección (Opcional)</string>
+    <string name="add_direccion_direccion">Direccion</string>
+    <string name="address_ciudad">Ciudad:</string>
+    <string name="address_direccion">Direccion:</string>
+    <string name="address_save_address">Guardar</string>
+    <string name="timesforday">Pastillas al día:</string>
+    <string name="dateinit">Fecha de inicio:</string>
+    <string name="dateend">Fecha de fin:</string>
+    <string name="timeinit">Hora de inicio:</string>
+    <string name="pillsTitle">Acordarme</string>
+    <string name="pillsExplanation">Utilice esta funcionalidad para que su teléfono le recuerde las horas en la que debe suministrarse una dosis de medicamentos.</string>
+    <string name="placesTitle">Lugares Cercanos</string>
+    <string name="categoriesTitleMenu">Categorías</string>
+    <string name="sanitaryAlertTitle">Alertas Sanitarias</string>
+    <string name="emergencyNumberTitle">Números Emergencia</string>
+    <string name="emergencyNumberErrorUrl">Lamentamos no poder mostrar inforamción lugar</string>
+    <string name="gpsErrorNoGps">Para su correcto funcionamiento, esta aplicación requiere tener algún Servicio de Ubicación disponible. Se le ubucará en una posición por omisión</string>
+    <string name="networkErrorNoNetwork">Esta aplicacion requiere conexión a Internet para su funcionamiento. Lamentamos no poder mostrar puntos de interés.</string>
+</resources>
